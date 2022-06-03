@@ -2,4 +2,4 @@
 
 Configuration
 -------------
-sb scripts are meant to be used together with dwm and the split-status patch. But can also be used as a normal shell script.
+The scripts with the prefix sb are meant to be used together with dwm and the split-status patch. However they can also be used as a normal shell script.
