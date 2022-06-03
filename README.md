@@ -2,4 +2,4 @@
 
 Configuration
 -------------
-The scripts with the prefix sb are meant to be used together with dwm and the split-status patch. However they can also be used as a normal shell script.
+The scripts with the sb prefix can easily be used with dwm and the split-status patch from: https://dwm.suckless.org/patches/splitstatus/
