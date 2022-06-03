@@ -1,0 +1,2 @@
+#!/bin/sh
+timedatectl | sed -e 's/^[[:space:]]*//' |  awk '/Local/ {print $3, $4, $5}'

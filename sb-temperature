@@ -1,0 +1,3 @@
+#!/bin/sh
+# GPU temperature
+nvidia-smi -q -d TEMPERATURE | sed -e 's/^[[:space:]]*//' | awk '/GPU Current/ {printf "GPU: %s°C\n", $5}' 

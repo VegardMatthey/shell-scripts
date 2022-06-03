@@ -1,0 +1,2 @@
+#!/bin/sh
+mpstat | awk 'END{printf "CPU: %.1f%\n", 100 - $13}'

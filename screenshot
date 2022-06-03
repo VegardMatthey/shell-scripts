@@ -1,0 +1,3 @@
+#!/bin/dash
+#sleep 2s
+shotgun /home/vbm/Images/Screenshots/screenshot.png
